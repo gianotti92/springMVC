@@ -1,0 +1,9 @@
+TABLA_PATENTES
+id | col1 | col2
+
+TABLA_CONTRATOS
+id | col1 | col2 | id_tabla_a
+
+SELECT * FROM TABLA_A JOIN TABLA_B ON TABLA_A.id = TABLA_B.id_tabla_a
+
+Puedo unir las dos tablas mediante una foreing key constraint 
